@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Twitter } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,11 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 safe-x">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-              tryb <span className="text-secondary">burger</span>
-            </h3>
+            <img src={logo} alt="Pc Peli" className="h-16 w-auto mb-4" />
             <p className="text-background/70 text-sm">
-              Las mejores hamburguesas de la ciudad, hechas con amor y los ingredientes más frescos.
+              La mejor comida rápida de la ciudad, hecha con amor y los ingredientes más frescos.
             </p>
           </div>
           
@@ -19,7 +18,7 @@ const Footer = () => {
             <ul className="space-y-2 text-background/70 text-sm">
               <li>📍 Calle Principal 123</li>
               <li>📞 +34 123 456 789</li>
-              <li>✉️ hola@trybburger.com</li>
+              <li>✉️ hola@pcpeli.com</li>
             </ul>
           </div>
           
@@ -35,7 +34,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-background/50 text-sm">
-            © 2024 Tryb Burger. Todos los derechos reservados.
+            © 2024 Pc Peli. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-background/70 hover:text-secondary transition-colors">
