@@ -16,12 +16,12 @@ const HeroSection = () => {
       <div className="relative container mx-auto px-4 py-10 md:py-14 flex items-center min-h-[280px] md:min-h-[350px]">
         <div className="max-w-xl">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
-            Hamburguesas
+            Comida Rápida
             <br />
-            <span className="text-secondary">de verdad</span>
+            <span className="text-secondary">Genérica</span>
           </h1>
           <p className="text-base md:text-lg text-white/90 max-w-md">
-            Ingredientes frescos, carne 100% de res y el sabor que te mereces. ¡Pide ahora!
+            Los mejores sabores, ingredientes frescos y el servicio que te mereces. ¡Pide ahora!
           </p>
         </div>
       </div>
