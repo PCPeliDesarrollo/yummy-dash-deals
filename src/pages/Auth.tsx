@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { useAuth } from '@/hooks/useAuth';
 import { ArrowLeft, Eye, EyeOff } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import logo from '@/assets/logo.png';
 
 const emailSchema = z.string().email('Email inválido');
 const passwordSchema = z.string().min(6, 'La contraseña debe tener al menos 6 caracteres');
@@ -124,7 +125,7 @@ const Auth = () => {
       <div className="flex-1 flex items-center justify-center p-6">
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
-            <img src="/favicon.png" alt="Pc Peli" className="h-20 w-auto mx-auto mb-2" />
+            <img src={logo} alt="Pc Peli" className="h-20 w-auto mx-auto mb-2" />
             <p className="text-muted-foreground mt-2">
               {isLogin ? 'Inicia sesión para hacer tu pedido' : 'Regístrate para empezar a pedir'}
             </p>
