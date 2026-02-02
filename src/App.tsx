@@ -38,7 +38,7 @@ const AppContent = () => {
           <Route path="/perfil" element={<Profile />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/checkout" element={<Checkout />} />
-          <Route path="/carta" element={<CartaCompleta />} />
+          <Route path="/nuestracarta" element={<CartaCompleta />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
