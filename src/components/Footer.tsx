@@ -1,5 +1,5 @@
 import { Instagram, Facebook, Twitter } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/pcpeli-logo.png";
 
 const Footer = () => {
   return (
