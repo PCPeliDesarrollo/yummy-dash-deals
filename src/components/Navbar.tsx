@@ -17,7 +17,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-2 flex items-center justify-between safe-x">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="Pc Peli" className="h-12 w-auto" />
+            <span className="inline-flex items-center rounded-xl bg-primary-foreground/10 px-2 py-1">
+              <img src={logo} alt="Pc Peli" className="h-12 w-auto" />
+            </span>
           </Link>
           
           <div className="hidden md:flex items-center gap-6">
