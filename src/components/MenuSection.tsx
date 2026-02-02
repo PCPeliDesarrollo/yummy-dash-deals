@@ -52,7 +52,7 @@ const MenuSection = () => {
     <section className="py-8 bg-muted/50">
       <div className="container mx-auto px-4">
         <Link 
-          to="/carta" 
+          to="/nuestracarta" 
           className="flex items-center justify-center gap-3 text-2xl md:text-3xl font-bold text-foreground mb-6 hover:text-primary transition-colors cursor-pointer group"
         >
           <BookOpen className="h-7 w-7 md:h-8 md:w-8 text-primary group-hover:scale-110 transition-transform" />
