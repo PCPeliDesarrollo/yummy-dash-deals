@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { BookOpen } from "lucide-react";
 import { categories } from "@/data/products";
 
 // Import category images
@@ -52,9 +53,11 @@ const MenuSection = () => {
       <div className="container mx-auto px-4">
         <Link 
           to="/carta" 
-          className="block text-2xl md:text-3xl font-bold text-foreground mb-6 text-center hover:text-primary transition-colors cursor-pointer"
+          className="flex items-center justify-center gap-3 text-2xl md:text-3xl font-bold text-foreground mb-6 hover:text-primary transition-colors cursor-pointer group"
         >
-          Nuestra Carta →
+          <BookOpen className="h-7 w-7 md:h-8 md:w-8 text-primary group-hover:scale-110 transition-transform" />
+          <span>Nuestra Carta</span>
+          <span className="text-primary">→</span>
         </Link>
         
         {/* Category Cards Grid */}
