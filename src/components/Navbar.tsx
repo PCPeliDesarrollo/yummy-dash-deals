@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import { useIsAdmin } from "@/hooks/useIsAdmin";
 import { useCart } from "@/contexts/CartContext";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/pcpeli-logo.png";
 
 const Navbar = () => {
   const { user } = useAuth();
