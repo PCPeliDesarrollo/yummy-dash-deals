@@ -188,7 +188,7 @@ const Admin = () => {
             </Button>
             <div>
               <h1 className="text-xl font-bold">Panel de Administración</h1>
-              <p className="text-sm text-background/70">Tryb Burger</p>
+              <p className="text-sm text-background/70">Pc Peli</p>
             </div>
           </div>
           <Button

@@ -124,9 +124,7 @@ const Auth = () => {
       <div className="flex-1 flex items-center justify-center p-6">
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-foreground" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-              tryb <span className="text-secondary">burger</span>
-            </h2>
+            <img src="/favicon.png" alt="Pc Peli" className="h-20 w-auto mx-auto mb-2" />
             <p className="text-muted-foreground mt-2">
               {isLogin ? 'Inicia sesión para hacer tu pedido' : 'Regístrate para empezar a pedir'}
             </p>

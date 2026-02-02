@@ -14,7 +14,7 @@ const PromoSection = () => {
               OFERTA ESPECIAL
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-4">
-              ¡Combo Tryb por solo €9.99!
+              ¡Combo Peli por solo €9.99!
             </h2>
             <p className="text-secondary-foreground/80 mb-6 max-w-lg mx-auto">
               Hamburguesa + Patatas + Bebida. Válido de lunes a jueves.
